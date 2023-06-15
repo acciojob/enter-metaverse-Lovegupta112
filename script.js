@@ -11,12 +11,12 @@ window.addEventListener('load',()=>{
 	btn.id='enterBtn';
 	btn.innerText='Enter';
 	btn.addEventListener('click',change);
-	body.append(div);
-	body.append(btn);
+	document.body.append(div);
+	document.body.append(btn);
 })
 
 function change(){
-	let div.document.getElementsByTagName('div')[0];
+	let div=document.getElementsByTagName('div')[0];
 	
 	let h1=document.createElement('h1');
 	h1.className='status';
