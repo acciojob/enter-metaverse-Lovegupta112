@@ -19,7 +19,7 @@ function change(){
 	let div=document.getElementsByTagName('div')[0];
 	
 	let h1=document.createElement('h1');
-	// h1.id='status';
+	h1.id='status';
 	h1.innerText='Entered Metaverse';
 
 	div.innerHTML="";
