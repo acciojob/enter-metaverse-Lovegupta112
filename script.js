@@ -2,7 +2,7 @@
 window.addEventListener('load',()=>{
 	let div=document.createElement('div');
 	let p=document.createElement('p');
-	p.className='status';
+	p.id='status';
 	p.innerText="Enter the Metaverse";
 
 	div.append(p);
@@ -19,7 +19,7 @@ function change(){
 	let div=document.getElementsByTagName('div')[0];
 	
 	let h1=document.createElement('h1');
-	h1.className='status';
+	h1.id='status';
 	h1.innerText='Entered Metaverse';
 
 	div.innerHTML="";
